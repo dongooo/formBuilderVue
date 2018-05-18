@@ -14,6 +14,7 @@ http.get('weather', (callback) => {
 export default {
   mixins: [idMixin],
   components: { ELSelect,ELOption },
+  extends: ELSelect,
   inheritAttrs: false,
   render(h) {
     const $slots = this.$slots
@@ -66,10 +67,11 @@ export default {
           type: 'primary',
           placeholder: '请选择',
         }
-      }
+      },
+      [$slots.first,elemeOptions,$slots.default]
     )
 
-    return h('div', { attrs: { id: this.safeId() }, class: 'bpm-select-container' }, [elemeSelect,elemeOptions])
+    return h('div', { attrs: { id: this.safeId() }, class: 'bpm-select-container' }, [elemeSelect])
 
     // return h('div', { attrs: { id: this.safeId() }, class: this.dropdownClasses }, [
     //   split,
