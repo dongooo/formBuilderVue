@@ -1,0 +1,8 @@
+{
+    "name": "@bpm/button-toolbar",
+    "version": "1.0.0",
+    "meta": {
+        "title": "Button toolbar",
+        "component": "bButtonToolbar"
+    }
+}

@@ -1,0 +1,126 @@
+﻿<project version="2.9" name="表单设计器" ID="4050E7FB-F524-E811-A162-A860B60EB925">
+  <params>
+    <pageParam version="5.1" minAllowVersion="5.1"/>
+    <projectParam version="2.9" minAllowVersion="2.9" platform="MtWeb" pageSize="(1440,900)" backgroundColor="4294967295" fontSize="0" fontFamily="" projectType="ptPersonalProject" isShowTitleIndex="False"/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <pages>
+    <page name="首页" ID="3A51E7FB-F524-E811-A162-A860B60EB925" expanded="True" code="xEDaH4jvL9" thumbCode="xEDaH4jvL9" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="文本输入框" ID="4459948A-1125-E811-A162-A860B60EB925" expanded="True" code="BESIzrZZjJ" thumbCode="BESIzrZZjJ" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="文本输入框--显示设置" ID="B33CF0B4-202F-489D-B2CA-D8763C6A6FA9" expanded="True" code="VveiShYt4S" thumbCode="bmrcKqfOV1" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="多行文本框" ID="5C6A802E-2625-E811-A162-A860B60EB925" expanded="True" code="j1J1wQs2a6" thumbCode="j1J1wQs2a6" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="单选框" ID="1E2FED2E-2825-E811-A162-A860B60EB925" expanded="True" code="ENLVihNBzb" thumbCode="ENLVihNBzb" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="3D8604A3B5F2E73751D255733E3D1A0A.svg"/>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+        <image key="55367C2DF4D7A86711CDD133296C3A51.svg"/>
+      </images>
+    </page>
+    <page name="复选框" ID="80DF3311-39AF-4367-9FC5-CD4D2721AB06" expanded="False" code="ErdP8b2qey" thumbCode="ErdP8b2qey" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="3D8604A3B5F2E73751D255733E3D1A0A.svg"/>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+        <image key="55367C2DF4D7A86711CDD133296C3A51.svg"/>
+      </images>
+    </page>
+    <page name="日期" ID="9913FA26-1652-4684-99E1-163E62966B3C" expanded="False" code="5dR9vSTdot" thumbCode="5dR9vSTdot" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="日期区间" ID="A21B24DE-486A-40F6-AB49-D9D018F4A992" expanded="False" code="dQUF2Tkyyi" thumbCode="dQUF2Tkyyi" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="数字" ID="5FFCD19F-E838-41F3-81B4-0DF5EF679312" expanded="True" code="ZCsutPdPr6" thumbCode="ZCsutPdPr6" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="金额" ID="2443C416-83DD-47EF-99DC-685914BEC3E5" expanded="True" code="nxZozBHukh" thumbCode="nxZozBHukh" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="下拉菜单" ID="7FA93348-2327-4284-A3EA-2E52A71CC79A" expanded="True" code="nde1J479V4" thumbCode="pfuRl1R56p" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="3D8604A3B5F2E73751D255733E3D1A0A.svg"/>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+        <image key="55367C2DF4D7A86711CDD133296C3A51.svg"/>
+      </images>
+    </page>
+    <page name="用户选择" ID="F96F96F7-FD17-4C33-BAF0-3695A8F2B58B" expanded="True" code="VcuS8eD19j" thumbCode="VcuS8eD19j" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+        <image key="D953C2D6832F8C867E95E901A41749FD.svg"/>
+      </images>
+    </page>
+    <page name="部门选择" ID="0E85DC66-A5D6-44C2-9B6E-FF519AD2C9F6" expanded="False" code="6myrS211H1" thumbCode="6myrS211H1" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="D953C2D6832F8C867E95E901A41749FD.svg"/>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="分割线" ID="779D6C90-1232-4F1D-8531-28A9293EB482" expanded="False" code="WDo1erqXEI" thumbCode="WDo1erqXEI" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="描述文字" ID="FEA09817-4DCD-496F-804D-6E426F2146A0" expanded="False" code="gMfOuAg9hJ" thumbCode="gMfOuAg9hJ" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="关联表单" ID="DABC924C-FEB1-4A00-A5BE-5E37D21A8F70" expanded="False" code="5SFb7iQeRu" thumbCode="5SFb7iQeRu" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="D953C2D6832F8C867E95E901A41749FD.svg"/>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="附件" ID="B6E3C207-6340-4136-BFFB-F0D00BA94F3D" expanded="True" code="Lurvqf8ePO" thumbCode="Lurvqf8ePO" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="755DAA9B66CC90519C23AA73B4780121.svg"/>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="自定义模块" ID="D8C505EB-C9CA-449B-8E80-62A7FC922FDE" expanded="True" code="QnCR2oalty" thumbCode="" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="边栏" ID="F1EBB7F0-8116-4A53-89E7-C480CA0FAAF0" expanded="True" code="ZDuEGTYuVw" thumbCode="ZDuEGTYuVw" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+  </pages>
+  <trash>
+    <page name="页面" ID="A6C49886-1125-E811-A162-A860B60EB925" expanded="True" code="CgEvNcnGF3" thumbCode="" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="首页1" ID="D2B3BD2E-1525-E811-A162-A860B60EB925" expanded="False" code="gh6I7QFyOU" thumbCode="QqH3ZkJujA" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="多行文本框" ID="16FE503F-2425-E811-A162-A860B60EB925" expanded="False" code="pKkZVRWRi8" thumbCode="YbBv62xGMG" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+      </images>
+    </page>
+    <page name="页面" ID="D6157501-721C-4506-9FFB-8FB042CB67C1" expanded="False" code="hFdw7keZK2" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+  </trash>
+  <deletes/>
+  <masters/>
+  <images>
+    <image key="755DAA9B66CC90519C23AA73B4780121.svg"/>
+    <image key="D953C2D6832F8C867E95E901A41749FD.svg"/>
+    <image key="55367C2DF4D7A86711CDD133296C3A51.svg"/>
+    <image key="3D8604A3B5F2E73751D255733E3D1A0A.svg"/>
+    <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
+  </images>
+</project>

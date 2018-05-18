@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form builder to Vue</title>
+    <script src="../bower_components\vue\vue.js"></script>
+    <link rel="stylesheet" href="../bower_components\bootstrap\dist\css\bootstrap.min.css">
+
+    <!-- dx charts -->
+    <script type="text/javascript" src="../bower_components\jquery\dist\jquery.min.js"></script>
+    <script type="text/javascript" src="../bower_components\globalize\lib\globalize.js"></script>
+    <!-- <script type="text/javascript" src="http://cdn3.devexpress.com/jslib/15.1.5/js/dx.chartjs.js"></script> -->
+
+    <link rel="stylesheet" href="../../packages/survey-vue/survey.css" />
+    <script src="../../packages/survey-vue/survey.vue.js"></script>
+    <!-- <link rel="stylesheet" href="../bower_components/formbuild-vue/survey.css" />
+    <script src="../bower_components/formbuild-vue/survey.vue.min.js"></script> -->
+
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+    <!-- <script src="../bower_components\bootstrap\dist/js/bootstrap.min.js"></script> -->
+
+    <!-- Material Design fonts -->
+    <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">-->
+
+    <!-- Bootstrap Material Design -->
+    <!--<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@0.5.10/dist/css/bootstrap-material-design.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@0.5.10/dist/css/ripples.css" />
+    <script src="https://unpkg.com/bootstrap-material-design@0.5.10/dist/js/material.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@0.5.10/dist/js/ripples.js"></script>-->
+
+</head>
+
+<body>
+    <div id="surveyElement">
+        <survey :survey='survey' />
+        <el-button type="success">成功按钮</el-button>
+        
+    </div>
+    <div id="formBuilder">
+        <!-- <el-button type="success">success</el-button> -->
+        
+        <el-form>
+            <el-form-item label="公司名称">
+                <el-input></el-input>
+            </el-form-item>
+        </el-form>
+
+    </div>
+    
+   
+    <script src="./index.js"></script>
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+    <script>
+        new Vue({
+            el:'#formBuilder',
+            data:{
+                listValue:[],
+                form:{},
+                input:''
+            },
+            created(){
+                this.getJson();
+            },
+            methods:{
+                getJson(){
+                    let url='./TravelExpenseRequest01.json';
+                    axios.get(url).then(response => {
+                        this.listValue = response.data.retData.listValue;
+                        console.log(this.listValue);
+                    })
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

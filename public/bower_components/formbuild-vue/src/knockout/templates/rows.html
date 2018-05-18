@@ -1,0 +1,14 @@
+<script type="text/html" id="survey-rows">
+    <!-- ko foreach: { data: koRows, as: 'row'} -->
+    <!-- ko if: row.koVisible -->
+    <div data-bind="css: panel.cssClasses.row">
+        <!-- ko foreach: { data: row.koElements, as: 'question' , afterRender: row.koAfterRender } -->
+        <!-- ko if: question.koVisible -->
+        <!-- ko template: { name: question.koElementType, data: question, afterRender: $parent.koElementAfterRender } -->
+        <!-- /ko -->
+        <!-- /ko -->
+        <!-- /ko -->
+    </div>
+    <!-- /ko -->
+    <!-- /ko -->
+</script>

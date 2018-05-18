@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form builder to Vue</title>
+    <script src="../bower_components\vue\vue.js"></script>
+    <link rel="stylesheet" href="../bower_components\bootstrap\dist\css\bootstrap.min.css">
+
+    <!-- dx charts -->
+    <script type="text/javascript" src="../bower_components\jquery\dist\jquery.min.js"></script>
+    <script type="text/javascript" src="../bower_components\globalize\lib\globalize.js"></script>
+    <!-- <script type="text/javascript" src="http://cdn3.devexpress.com/jslib/15.1.5/js/dx.chartjs.js"></script> -->
+
+    <link rel="stylesheet" href="../../packages/formbuild-vue/formbuild.css" />
+    <script src="../../packages/formbuild-vue/formbuild.vue.js"></script>
+    <!-- <link rel="stylesheet" href="../bower_components/formbuild-vue/survey.css" />
+    <script src="../bower_components/formbuild-vue/survey.vue.min.js"></script> -->
+
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="../bower_components/element-ui/index.css">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+</head>
+
+<body>
+   
+    <div id="formBuildWrapper">
+        <!-- <el-button type="success">success</el-button> -->
+        
+        <formbuild :form-build='formBuild' />
+
+
+    </div>
+    
+    <script src="../bower_components/element-ui/index.js"></script>
+    <script src="./formbuild.js"></script>
+
+
+    <!-- <script>
+        new Vue({
+            el:'#formBuilder',
+            data:{
+                listValue:[],
+                form:{},
+                input:''
+            },
+            created(){
+                this.getJson();
+            },
+            methods:{
+                getJson(){
+                    let url='./TravelExpenseRequest01.json';
+                    axios.get(url).then(response => {
+                        this.listValue = response.data.retData.listValue;
+                        console.log(this.listValue);
+                    })
+                }
+            }
+        })
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{
+    "name": "@bpm/bpm-select",
+    "version": "1.0.0",
+    "meta": {
+        "title": "bpm select",
+        "component": "bpmSelect",
+        "components": [
+            "bpmSelect"
+        ]
+    }
+}

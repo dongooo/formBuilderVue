@@ -1,0 +1,51 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'jdFontAwesome';
+    src: url('fonts/jdFontAwesome.woff2') format('woff2'),
+    url('fonts/jdFontAwesome.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'jdFontCustom';
+    src: url('fonts/jdFontCustom.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'jdIcoFont';
+    src: url('fonts/jdIcoFont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'jdIcoMoonFree';
+    src: url('fonts/jdIcoMoonFree.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'jdIonicons';
+    src: url('fonts/jdIonIcons.woff') format('truetype');
+}
+
+@font-face {
+    font-family: 'jdiconfontA';
+    src: url('fonts/jdiconfontA.woff') format('truetype');
+}
+
+@font-face {
+    font-family: 'jdiconfontB';
+    src: url('fonts/jdiconfontB.woff') format('truetype');
+}
+
+@font-face {
+    font-family: 'jdiconfontC';
+    src: url('fonts/jdiconfontC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'jdiconfontD';
+    src: url('fonts/jdiconfontD.ttf') format('truetype');
+}

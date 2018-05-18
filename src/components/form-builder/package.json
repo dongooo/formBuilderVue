@@ -1,0 +1,11 @@
+{
+    "name": "@bpm/form-builder",
+    "version": "1.0.0",
+    "meta": {
+        "title": "Form Builder",
+        "component": "formBuilder",
+        "components": [
+            "formBuilder"
+        ]
+    }
+}

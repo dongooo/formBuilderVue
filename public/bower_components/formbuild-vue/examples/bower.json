@@ -1,0 +1,25 @@
+{
+  "name": "examples",
+  "homepage": "https://github.com/dongooo/FormBuilder",
+  "authors": [
+    "Dongfen.Wang <Dongfen.Wang@geely.com>"
+  ],
+  "description": "lib",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "bootstrap": "3.3.7",
+    "chart.js": "^2.7.2",
+    "vue": "2.1.10",
+    "globalize": "0.1.1",
+    "formbuild-vue": "*"
+  }
+}

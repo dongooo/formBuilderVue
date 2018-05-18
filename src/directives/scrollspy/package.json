@@ -1,0 +1,8 @@
+{
+    "name": "@bpm/scrollspy",
+    "version": "0.0.0",
+    "meta": {
+        "title": "Scrollspy",
+        "directive": "vBScrollspy"
+    }
+}

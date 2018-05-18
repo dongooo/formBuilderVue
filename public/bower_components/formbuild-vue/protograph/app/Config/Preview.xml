@@ -1,0 +1,10 @@
+﻿<previews version="1.0">
+  <isDisplayLink>False</isDisplayLink>
+  <isDisplayHoverLink>False</isDisplayHoverLink>
+  <isDisplayRemark>False</isDisplayRemark>
+  <isDisplayComment>False</isDisplayComment>
+  <backgroundColor>0</backgroundColor>
+  <isShowControllerPanel>False</isShowControllerPanel>
+  <isShowPreviewTools>False</isShowPreviewTools>
+  <shellDrawModel>SmNormal</shellDrawModel>
+</previews>

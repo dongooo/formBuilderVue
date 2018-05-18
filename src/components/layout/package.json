@@ -1,0 +1,14 @@
+{
+    "name": "@bpm/layout",
+    "version": "1.0.0",
+    "meta": {
+        "title": "Layout and Grid System",
+        "slug": "layout",
+        "components": [
+            "bContainer",
+            "bRow",
+            "bCol",
+            "bFormRow"
+        ]
+    }
+}
