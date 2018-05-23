@@ -4,12 +4,14 @@ import ElementUI from 'element-ui'
 
 const ELSelect = ElementUI.Select
 const ELOption = ElementUI.Option
+const ELSelectProps = ELSelect.props
+const ELInput = ElementUI.Input
 
 http.setApi('weather', 'data/forecast/101010100.html', 'http://mobile.weather.com.cn', false)
 
-http.get('weather', (callback) => {
-  console.log(callback)
-})
+// http.get('weather', (callback) => {
+//   console.log(callback)
+// })
 
 export default {
   mixins: [idMixin],
@@ -49,26 +51,27 @@ export default {
         return h(
           'el-option',
           {
-          attrs: { 
-            key:option.DicId,
-            label:option.DicDesc,
-            value:option.DicCode
-          }
+            attrs: { 
+              key:option.DicId,
+              label:option.DicDesc,
+              value:option.DicCode
+            }
           }
       )
     })
-    
-
+  
     const elemeSelect = h(
       'el-select',
       {
         class: 'name',
+
         attrs: {
           type: 'primary',
           placeholder: '请选择',
+          
         }
       },
-      [$slots.first,elemeOptions,$slots.default]
+      [$slots.first,elemeOptions]
     )
 
     return h('div', { attrs: { id: this.safeId() }, class: 'bpm-select-container' }, [elemeSelect])
@@ -80,7 +83,7 @@ export default {
     // ])
   },
   props: {
-    ops: {}
+    
   },
   computed: {
 

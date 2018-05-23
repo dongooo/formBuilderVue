@@ -43,6 +43,7 @@ const config = {
     commonjs(),
     babel({
       plugins: ['external-helpers'],
+      runtimeHelpers: true,
       exclude: 'node_modules/**',
     })
   ],
