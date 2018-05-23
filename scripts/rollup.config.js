@@ -11,6 +11,7 @@ const base = path.resolve(__dirname, '..')
 const src = path.resolve(base, 'src')
 const dist = path.resolve(base, 'dist')
 
+
 // Ensure dist directory exists
 if (!fs.existsSync(dist)) {
   fs.mkdirSync(dist)
