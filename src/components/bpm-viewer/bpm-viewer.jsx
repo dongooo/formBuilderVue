@@ -1,27 +1,54 @@
-const style = {
+import ElementUI from 'element-ui'
 
+const Collapse = ElementUI.Collapse
+
+const Pstyle = {
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center'
 }
 
-const sty = new stylesheet({
-  .test {
-    color: 'red'
-  }
-})
-
 export default {
+  components: {
+    Collapse
+  },
   props: {
     title: {
-      default: 'Component View'
+      default: 'Component View',
+      type: String
+    },
+    name: {
+      default: '',
+      require: true,
+      type: String
     }
   },
-  data() {
+  data () {
     return {
-      style
+      Pstyle: Object.assign({}, Pstyle)
     }
   },
-  render(h) {
+  render (h) {
+    const cpt = h('div', [
+      h(this.name)
+    ])
+
     const demo = (
-      <div className='bpm-divider' style={this.cModel.style}></div>
+      <el-collapse accordion>
+        <el-collapse-item>
+          <template slot="title">
+            { this.title }
+          </template>
+          <div style={this.Pstyle}>
+            <div style={{flex: 1}}>
+              {cpt}
+            </div>
+            <div style={{flex: 1}}>
+              <slot name='describe'></slot>
+            </div>
+          </div>
+        </el-collapse-item>
+      </el-collapse>
     )
 
     return demo

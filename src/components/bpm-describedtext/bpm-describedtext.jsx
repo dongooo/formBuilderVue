@@ -1,4 +1,6 @@
-import {} from 'element-ui'
+import ElementUI from 'element-ui'
+
+const ELButton = ElementUI.Button
 
 const model = {
   type: 'describedtext',
@@ -21,20 +23,20 @@ const model = {
 }
 
 export default {
+  components: {
+    ELButton
+  },
+
   props: {
     model: {
       default: function () {
         return Object.assign({}, model)
       },
       type: Object
-    },
-    style: {
-      default: function () {
-        return Object.assign({}, model.style)
-      }
     }
   },
-  data() {
+
+  data () {
     return {
     }
   },
@@ -46,9 +48,11 @@ export default {
       return this.model.style
     }
   },
-  render(h) {
+  render (h) {
     const demo = (
-      <div className='bpm-describedtext' style={this.cStyle}></div>
+      <div className='bpm-describedtext' style={this.cStyle}>
+        <el-button></el-button>
+      </div>
     )
 
     return demo

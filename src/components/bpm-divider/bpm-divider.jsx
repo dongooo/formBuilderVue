@@ -7,8 +7,7 @@ const model = {
     borderStyle: 'dotted',
     borderWidth: '2px 0 0',
     borderColor: 'red'
-  },
-
+  }
 }
 
 export default {
@@ -20,7 +19,7 @@ export default {
       type: Object
     }
   },
-  data() {
+  data () {
     return {
     }
   },
@@ -29,7 +28,7 @@ export default {
       return this.model
     }
   },
-  render(h) {
+  render (h) {
     const demo = (
       <div className='bpm-divider' style={this.cModel.style}></div>
     )
