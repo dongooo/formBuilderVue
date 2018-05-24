@@ -5,7 +5,8 @@ const Collapse = ElementUI.Collapse
 const Pstyle = {
   display: 'flex',
   justifyContent: 'center',
-  alignItems: 'center'
+  alignItems: 'center',
+  minHeight: '60px'
 }
 
 export default {
@@ -34,21 +35,19 @@ export default {
     ])
 
     const demo = (
-      <el-collapse accordion>
-        <el-collapse-item>
-          <template slot="title">
-            { this.title }
-          </template>
-          <div style={this.Pstyle}>
-            <div style={{flex: 1}}>
-              {cpt}
-            </div>
-            <div style={{flex: 1}}>
-              <slot name='describe'></slot>
-            </div>
+      <el-collapse-item>
+        <template slot="title">
+          {this.title}
+        </template>
+        <div style={this.Pstyle}>
+          <div style={{flex: 1}}>
+            {cpt}
           </div>
-        </el-collapse-item>
-      </el-collapse>
+          <div style={{flex: 1}}>
+            <slot name='describe'></slot>
+          </div>
+        </div>
+      </el-collapse-item>
     )
 
     return demo
