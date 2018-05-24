@@ -26,5 +26,6 @@
                 ]
             ]
         }
-    }
+    },
+    "plugins": ["transform-vue-jsx"]
 }

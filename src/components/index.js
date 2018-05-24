@@ -36,6 +36,9 @@ import Tabs from './tabs'
 import Tooltip from './tooltip'
 import BpmSelect from './bpm-select'
 import FormBuilder from './form-builder'
+import BpmDivider from './bpm-divider'
+import BpmDescribedtext from './bpm-describedtext'
+import BpmViwer from './bpm-viewer'
 
 export {
   Alert,
@@ -75,5 +78,8 @@ export {
   Tabs,
   Tooltip,
   FormBuilder,
-  BpmSelect
+  BpmSelect,
+  BpmDivider,
+  BpmDescribedtext,
+  BpmViwer
 }

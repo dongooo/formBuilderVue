@@ -2,27 +2,33 @@
 <html lang="en">
 
 <head>
-    <title>表单构建</title>
-    <link rel="stylesheet" href="../bower_components\bootstrap\dist\css\bootstrap.min.css">
-    <link rel="stylesheet" href="../bower_components/element-ui/index.css">
-
+  <title>表单构建</title>
+  <link rel="stylesheet" href="../bower_components\bootstrap\dist\css\bootstrap.min.css">
+  <link rel="stylesheet" href="../bower_components/element-ui/index.css">
 </head>
 
 <body>
-   
-    <div id="formBuildWrapper">
-        <form-builder model=""></form-builder>
-        <bpm-select :disabled="true"></bpm-select>
-        <!-- <formbuild :form-build='formBuild' /> -->
+  <div id="formBuildWrapper">
+    <bpm-describedtext></bpm-describedtext>
+    <bpm-viewer 
+      name='bpm-divider'
+      title='分割线'
+    >
+      <template slot='describe'>
+        <div>
+          ddsdds
+        </div>
+      </template>
+    </bpm-viewer>
+  </div>
 
-    </div>
 
 
-    <script src="../bower_components/vue/vue.js"></script>
-    <!-- <script src="../../dist/formbuilder-vue.min.js"></script> -->
-    <script src="../../dist/formbuilder-vue.js"></script>
-    <script src="./index.js"></script>
-    
+  <!-- js -->
+  <script src="../bower_components/vue/vue.js"></script>
+  <!-- <script src="../../dist/formbuilder-vue.min.js"></script> -->
+  <script src="../../dist/formbuilder-vue.js"></script>
+  <script src="./index.js"></script>
 </body>
 
 </html>
