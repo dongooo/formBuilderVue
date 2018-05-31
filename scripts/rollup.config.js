@@ -7,6 +7,8 @@ const css = require('rollup-plugin-css-porter')
 const { camelCase } = require('lodash')
 const { name, dependencies } = require('../package.json')
 
+const vue = require('rollup-plugin-vue2')
+
 const base = path.resolve(__dirname, '..')
 const src = path.resolve(base, 'src')
 const dist = path.resolve(base, 'dist')
@@ -36,8 +38,9 @@ const config = {
   ),
   plugins: [
     css(),
+    vue(),
     resolve({
-
+       extensions: ['.js', '.vue'],
        jsnext: true,
         browser: true,
    }),

@@ -1,4 +1,4 @@
-import bpmSelect from './bpm-select'
+import bpmSelect from './bpm-select.vue'
 import { registerComponents, vueUse } from '../../utils/plugins'
 
 const components = {

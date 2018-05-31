@@ -3,6 +3,51 @@ function init() {
     el: '#formBuildWrapper',
     data: {
 
+      selectValue:'',
+      modelDropdown:{
+        attributes:{
+          type:'select',
+          multiple:false,
+          clearable:false,
+          placeholder:'',
+          key:'',
+          fieldName:'',
+          api:'',
+          labelTitle:'',
+          label:'',
+          value:'',
+          choices: [
+              {
+              "DicId": 11,
+              "DicCode": "35",
+              "DicDesc": "福建"
+              },
+              {
+              "DicId": 12,
+              "DicCode": "62",
+              "DicDesc": "甘肃"
+              },
+              {
+              "DicId": 13,
+              "DicCode": "41",
+              "DicDesc": "河南"
+              },
+              {
+              "DicId": 14,
+              "DicCode": "64",
+              "DicDesc": "宁夏"
+              },
+              {
+              "DicId": 15,
+              "DicCode": "12",
+              "DicDesc": "天津"
+              }
+          ]
+        },
+        events:{
+         
+        }
+      },
       renderConfig: {
         locale: "zh-cn",
         title: {
@@ -121,7 +166,11 @@ function init() {
     created() {
 
     },
-    methods: {}
+    methods: {
+      testChange(){
+        console.log('select-change')
+      }
+    }
   })
 }
 
