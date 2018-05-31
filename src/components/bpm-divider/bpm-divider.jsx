@@ -3,7 +3,7 @@ const model = {
   style: {
     width: '100%',
     height: '0px',
-    margin: '20px auto 40px',
+    margin: '0px auto',
     borderStyle: 'dotted',
     borderWidth: '2px 0 0',
     borderColor: 'red'

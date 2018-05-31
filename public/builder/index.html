@@ -5,6 +5,15 @@
   <title>表单构建</title>
   <link rel="stylesheet" href="../bower_components\bootstrap\dist\css\bootstrap.min.css">
   <link rel="stylesheet" href="../bower_components/element-ui/index.css">
+
+  <style>
+    #formBuildWrapper {
+      width: 90%;
+      margin: 20px auto;
+      padding: 0 20px;
+      border: 1px solid #ccc;
+    }
+  </style>
 </head>
 
 <body>
@@ -22,6 +31,24 @@
     </bpm-viewer>
 
     <bpm-select :model="modelDropdown"></bpm-select>
+    <el-collapse accordion>
+      <bpm-viewer 
+        name='bpm-divider'
+        title='分割线'
+      >
+        <template slot='describe'>
+          fsdfffff
+        </template>
+      </bpm-viewer>
+      <bpm-viewer 
+        name='bpm-divider'
+        title='分割线'
+      >
+        <template slot='describe'>
+          fsdfffff
+        </template>
+      </bpm-viewer>
+    </el-collapse>
   </div>
 
 
